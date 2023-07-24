@@ -14,7 +14,7 @@ public class StepDefinitions {
   @Given("x={int}")
   public void x(Integer int1) {
       // Write code here that turns the phrase above into concrete actions
-      x = int1 +1;
+      x = int1 ;
   }
   @Given("y={int}")
   public void y(Integer int1) {
