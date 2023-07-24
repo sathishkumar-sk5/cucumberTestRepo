@@ -23,7 +23,7 @@ public class StepDefinitions {
   }
   @When("x and y are added")
   public void x_and_y_are_added() {
-      // Write code here that turns the phrase above into concrete actions
+
       Calculator calc = new Calculator();
       sum = calc.add(x,y);
   }
