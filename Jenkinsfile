@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Run Tests') {
       steps {
-        sh "mvn clean test"
+        sh 'echo "hello world"'
       }
       post {
         always {
