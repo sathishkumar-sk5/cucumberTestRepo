@@ -19,7 +19,7 @@ public class StepDefinitions {
   @Given("y={int}")
   public void y(Integer int1) {
       // Write code here that turns the phrase above into concrete actions
-      y = int1;
+      y = int1 +1;
   }
   @When("x and y are added")
   public void x_and_y_are_added() {
